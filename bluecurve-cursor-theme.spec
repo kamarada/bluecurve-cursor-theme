@@ -26,6 +26,7 @@ Group:          System/X11/Icons
 Source0:        %{tarname}.tar.bz2
 Source1:        LICENSE
 Url:            http://fedorahosted.org/bluecurve
+BuildRequires:  perl(XML::Parser)
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
 
